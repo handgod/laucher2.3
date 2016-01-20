@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/.classpath
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/NOTICE
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/project.properties
+END
+CleanSpec.mk
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/CleanSpec.mk
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/.project
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/Android.mk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/AndroidManifest.xml
+END
+print_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/print_db.py
+END
+MODULE_LICENSE_APACHE2
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/MODULE_LICENSE_APACHE2
+END
+proguard.flags
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Myeclipse10/!svn/ver/17/trunk/MyEclipse10_ALL_20120509/MyEclipse10/laucher2.3/Launcher2/proguard.flags
+END

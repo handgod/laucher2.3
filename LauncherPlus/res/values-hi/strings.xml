@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">लांचर+</string>
+    <string name="uid_name">एंड्रॉएड कोर एप्‍स</string>
+    <string name="folder_name">फोल्‍डर</string>
+    <string name="chooser_wallpaper">वॉलपेपर यहां से चुनें</string>
+    <string name="wallpaper_instructions">सेट</string>
+    <string-array name="set_wallpaper_items">
+        <item>होम स्‍क्रीन सेट करें</item>
+        <item>लॉक स्‍क्रीन सेट करें</item>
+        <item>दोनों को सेट करें</item>
+    </string-array>
+    <string name="wallpaper">वॉलपेपर को सेट कर रहा है, कृपया प्रतीक्षा करें...</string>
+    <string name="pick_wallpaper">वॉलपेपर</string>
+    <string name="activity_not_found">आपके फोन पर एप्‍लीकेशन संस्‍थापित नहीं हुई</string>
+    <string name="configure_wallpaper">कन्फिगर करें...</string>
+    <string name="rename_folder_label">फोल्‍डर का नाम</string>
+    <string name="rename_folder_title">फोल्‍डर को दूसरा नाम दें</string>
+    <string name="rename_action">ठीक</string>
+    <string name="cancel_action">रद्द</string>
+    <string name="menu_item_add_item">होम स्‍क्रीन में जोड़ें</string>
+    <string name="group_applications">एप्‍लीकेशन</string>
+    <string name="group_shortcuts">शॉर्टकट </string>
+    <string name="group_folder">नया फोल्‍डर</string>
+    <string name="group_live_folders">फोल्‍डर</string>
+    <string name="group_widgets">विजेट</string>
+    <string name="group_wallpapers">वॉलपेपर</string>
+    <string name="add_folder">फोल्‍डर</string>
+    <string name="add_clock">घड़ी</string>
+    <string name="add_photo_frame">तस्‍वीर का फ्रेम </string>
+    <string name="shortcut_installed">शोर्टकट  \"<xliff:g example="Browser" id="name">%s</xliff:g>\"  बनाया गया।</string>
+    <string name="shortcut_uninstalled">शोर्टकट  \"<xliff:g example="Browser" id="name">%s</xliff:g>\" को हटाया गया।</string>
+    <string name="shortcut_duplicate">शोर्टकट  \"<xliff:g example="Browser" id="name">%s</xliff:g>\" पहले से मौजूद है।</string>
+    <string name="title_select_shortcut">शोर्टकट चुनें</string>
+    <string name="title_select_live_folder">फोल्‍डर चुनें</string>
+    <string name="all_apps_button_label">सभी एप्‍लीकेशन</string>
+    <string name="all_apps_home_button_label">होम</string>
+    <string name="menu_add">जोड़ें</string>
+    <string name="menu_wallpaper">वॉलपेपर</string>
+    <string name="menu_search">सर्च</string>
+    <string name="menu_notifications">सूचना</string>
+    <string name="menu_gestures">हावभाव </string>
+    <string name="menu_settings">सेटिंग</string>
+    <string name="menu_edit">संपादन</string>
+    <string name="permlab_install_shortcut">शोर्टकट संस्‍थापित करें</string>
+    <string name="permdesc_install_shortcut">एप्‍लीकेशन को प्रयोक्‍ता के हस्‍तक्षेप के बगैर शोर्टकट जोड़ने की अनुमति दें।</string>
+    <string name="permlab_uninstall_shortcut">शोर्टकट अनइंस्‍टाल करें</string>
+    <string name="permdesc_uninstall_shortcut">एप्‍लीकेशन को प्रयोक्‍ता के हस्‍तक्षेप के बगैर शोर्टकट हटाने की अनुमति दें।</string>
+    <string name="permlab_read_settings">होम सेटिंग व शोर्टकट पढ़ें</string>
+    <string name="permdesc_read_settings">एप्‍लीकेशन को होम पेज की सेटिंग व  शॉर्टकट जानने की अनुमति दें।</string>
+    <string name="permlab_write_settings">होम से व शोर्टकट लिखें</string>
+    <string name="permdesc_write_settings">एप्‍लीकेशन को होम में सेटिंग व शोर्टकट बदलने की अनुमति दें।</string>
+    <string name="gadget_error_text">विजेड लोड करने में समस्‍या</string>
+    <string name="out_of_space">इस होम स्क्रीन पर और अधिक जगह नहीं है. अन्य स्क्रीन पर रखने का प्रयास करें.</string>
+    <string name="load_wait">लोड हो रहा है...</string>
+    <string name="group_video_wallpaper">वीडियो वालपेपर</string>
+    
+	<string-array name="classification">
+    <item>पसंदीदा</item>
+	<item>खेल</item>
+	<item>मल्टीमीडिया</item>
+	<item>SNS</item>
+	<item>समाचार</item>
+	<item>उत्पादकता</item>	
+	<item>उपकरण</item>
+	<item>अनुकूलन</item>
+    </string-array>
+    <string name="remove_folder_info">और नीचे दिए APPs की स्थापना रद्द कर दी जाएगी: </string>
+    <string name="remove_dialog_negative">रद्द करें</string>
+    <string name="remove_app_failure">स्थापना रद्द करना विफल हुआ </string>
+    <string name="remove_folder_title">फ़ोल्डर</string>
+    <string name="remove_dialog_positive">ओके</string>
+    <string name="remove_dialog_title">निकालें</string>
+    <string name="menu_switch_style">स्विच शैली</string>
+    <string name="system_app_delete">सिस्टम अनुप्रयोग की स्थापना रद्द नहीं कर सकते</string>
+    <string name="remove_app_success">स्थापना रद्द कर दी गई है</string>
+    <string name="remove_folder_text">हटा दिया जाएगा.</string>
+    <string name="remove_app_info">स्थापना रद्द कर दी जाएगी.</string>
+    <string name="one_video_widget">होम स्क्रीन में केवल एक वीडियो प्लेयर ही स्वीकार्य है</string>
+
+    <!-- Theme feature -->
+    <string name="theme">थीम</string>
+</resources>
+

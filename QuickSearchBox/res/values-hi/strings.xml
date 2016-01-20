@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="corpus_selection_edit_items">जोड़ें / हटाएं</string>
+    
+    <string name="clear_shortcuts_prompt">यह हाल में चुने गए खोज संबंधी सुझावों के सभी शोर्टकट हटा देगा। \n\n(अपनी ब्राउजर हिस्‍ट्री हटाने के लिए, ब्राउजर सेटिंग प्रयोग करें।)</string>
+    
+    <string name="corpus_label_apps">एप्‍स</string>
+    
+    <string name="corpus_label_apps_market">एप्‍स व मार्केट</string>
+    
+    <string name="search_sources_summary">चुनें कि फोन पर क्‍या सर्च करना है</string>
+    
+    <string name="clear_shortcuts">अपवाद हटाएं</string>
+    
+    <string name="clear_shortcuts_summary">हाल में चुने गए सर्च सुझावों के शोर्टकट हटाएं</string>
+    
+    <string name="google_show_web_suggestions_summary_disabled">आपके टाइप करते ही गूगल से सुझाव न दिखाएं</string>
+    <string name="google_search_label">गूगल</string>
+    <string name="google_app_label">गूगल खोज</string>
+    <string name="google_search_hint">गूगल खोज</string>
+    <string name="google_search_settings">गूगल खोज</string>
+    <string name="google_search_description">गूगल खोज सुझाव</string>
+    <string name="corpus_description_apps_market">संस्‍थापित एप्‍स व बाजार से प्राप्‍त एप्‍स</string>
+    <string name="corpus_description_apps">संस्‍थापित एप्‍लीकेशन के नाम</string>
+    <string name="corpus_hint_apps">खोज एप्‍स</string>
+    <string name="corpus_hint_apps_market">खोज एप्‍स व बाजार</string>
+    <string name="menu_settings">खोज सेटिंग</string>
+    <string name="search_settings">खोज सेटिंग</string>
+    <string name="search_sources">खोजने योग्‍य आइटम</string>
+    <string name="google_show_web_suggestions_summary_enabled">आपके टाइप करने पर गूगल के सुझाव दिखाएं </string>
+    <string name="google_show_web_suggestions">वेब सुझाव दिखाएं </string>
+    <string name="voice_search_hint_title">कहने की कोशिश कर रहा है:</string>
+    <string name="corpus_label_web">वेब</string>
+    <string name="web_search_category_title">वेब</string>
+    <string name="corpus_description_web">वेब खोज, बुकमार्क व ब्राउजर हिस्‍ट्री </string>
+    <string name = "search_engine_settings">सर्च इंजन</string>
+    <string name = "pref_content_search_engine_consistency">सर्च इंजन की सुसंगता</string>
+    <string name = "pref_content_search_engine">सर्च इंजन चुनें</string>
+    <string name = "pref_search_engine_unify">सर्च इंजन को एकीकृत करें</string>
+    <string name = "app_name">सर्च</string>
+    <string name = "search_widget">सर्च</string>
+    <string name = "search_widget_config_ok">ठीक</string>
+    <string name = "corpus_selection_heading">सर्च</string>
+    <string name = "corpus_label_global">सभी</string>
+    <string name = "system_search_category_title"> फोन</string>
+    <string name = "agree">ठीक</string>
+    <string name = "disagree">रद्द</string>
+    <string name="search_suggestion_settings">वेब सर्च सुझाव </string>
+    <string name="pref_search_engine_unify_summary">ब्राउज़र में सर्च इंजन परिवर्तन लागू करें</string>
+</resources>

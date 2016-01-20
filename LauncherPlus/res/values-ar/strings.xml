@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">"المشغل+"</string>
+    <string name="uid_name">"تطبيقات Android المركزية"</string>
+    <string name="folder_name">"المجلد"</string>
+    <string name="chooser_wallpaper">"اختيار خلفية من"</string>
+    <string name="wallpaper_instructions">إعداد</string>
+    <string-array name="set_wallpaper_items">
+        <item>إعداد الشاشة الرئيسية</item>
+        <item>إعداد إقفال الشاشة</item>
+        <item>إعداد الاثنين</item>
+    </string-array>
+    <string name="wallpaper">"جارٍ إعداد الخلفية، الرجاء الانتظار..."</string>
+    <string name="pick_wallpaper">"الخلفيات"</string>
+    <string name="activity_not_found">"لم يتم تثبيت التطبيق على هاتفك."</string>
+    <string name="configure_wallpaper">"تهيئة..."</string>
+    <string name="rename_folder_label">"اسم المجلد"</string>
+    <string name="rename_folder_title">"إعادة تسمية المجلد"</string>
+    <string name="rename_action">"موافق"</string>
+    <string name="cancel_action">"إلغاء"</string>
+    <string name="menu_item_add_item">"إضافة إلى الشاشة الرئيسية"</string>
+    <string name="group_applications">"التطبيقات"</string>
+    <string name="group_shortcuts">"الاختصارات"</string>
+    <string name="group_folder">"مجلد جديد"</string>
+    <string name="group_live_folders">"مجلدات"</string>
+    <string name="group_widgets">"الأدوات"</string>
+    <string name="group_wallpapers">"الخلفيات"</string>
+    <string name="add_folder">"المجلد"</string>
+    <string name="add_clock">"الساعة"</string>
+    <string name="add_photo_frame">"إطار الصورة"</string>
+    <string name="shortcut_installed">"تم إنشاء الاختصار \"<xliff:g id="NAME">%s</xliff:g>\"."</string>
+    <string name="shortcut_uninstalled">"تمت إزالة الاختصار \"<xliff:g id="NAME">%s</xliff:g>\"."</string>
+    <string name="shortcut_duplicate">"الاختصار \"<xliff:g id="NAME">%s</xliff:g>\" موجود فعلاً."</string>
+    <string name="title_select_shortcut">"تحديد اختصار"</string>
+    <string name="title_select_live_folder">"تحديد مجلد"</string>
+    <string name="all_apps_button_label">"جميع التطبيقات"</string>
+    <string name="all_apps_home_button_label">"الرئيسية"</string>
+    <string name="menu_add">"إضافة"</string>
+    <string name="menu_wallpaper">"خلفية"</string>
+    <string name="menu_search">"بحث"</string>
+    <string name="menu_notifications">"التنبيهات"</string>
+    <string name="menu_gestures">"الإيماءات"</string>
+    <string name="menu_settings">"الإعدادات"</string>
+    <string name="menu_edit">تحرير</string>
+    <string name="permlab_install_shortcut">"اختصارات التثبيت"</string>
+    <string name="permdesc_install_shortcut">"للسماح للتطبيقات بإضافة الاختصارات بدون تدخل المستخدم."</string>
+    <string name="permlab_uninstall_shortcut">"إزالة الاختصارات"</string>
+    <string name="permdesc_uninstall_shortcut">"للسماح لتطبيق بإزالة الاختصارات بدون تدخل المستخدم."</string>
+    <string name="permlab_read_settings">"قراءة إعدادات الشاشة الرئيسية والاختصارات"</string>
+    <string name="permdesc_read_settings">"للسماح لتطبيق ما بقراءة الإعدادات والاختصارات في الشاشة الرئيسية."</string>
+    <string name="permlab_write_settings">"كتابة إعدادات الشاشة الرئيسية والاختصارات"</string>
+    <string name="permdesc_write_settings">"للسماح لتطبيق ما بتغيير الإعدادات والاختصارات في الشاشة الرئيسية."</string>
+    <string name="gadget_error_text">"حدثت مشكلة أثناء تحميل الأداة"</string>
+    <string name="out_of_space">لا يوجد حيز على هذه الشاشة الرئيسية. حاول وضعها على شاشة أخرى.</string>
+    <string name="load_wait">"جارٍ التحميل…"</string>
+    <string name="group_video_wallpaper">خلفيات الفيديو</string>
+
+	<string-array name="classification">
+    <item>المفضلة</item>
+	<item>اللعبة</item>
+	<item>الوسائط المتعددة</item>
+	<item>SNS</item>
+	<item>الأخبار</item>
+	<item>الإنتاجية</item>	
+	<item>الأداة</item>
+	<item>تخصيص</item>
+    </string-array>
+    <string name="remove_folder_info">وسيتم إزالة تثبيت  التطبيقات الواردة بالأسفل:</string>
+    <string name="remove_dialog_negative">إلغاء</string>
+    <string name="remove_app_failure">تعذر إزالة التثبيت</string>
+    <string name="remove_folder_title">المجلد</string>
+    <string name="remove_dialog_positive">موافق</string>
+    <string name="remove_dialog_title">إزالة</string>
+    <string name="menu_switch_style">نمط التبديل</string>
+    <string name="system_app_delete">لا يمكن تثبيت تطبيق النظام</string>
+    <string name="remove_app_success">تمت إزالة التثبيت</string>
+    <string name="remove_folder_text">سيتم الحذف.</string>
+    <string name="remove_app_info">ستتم إزالة التثبيت.</string>
+    <string name="one_video_widget">يسمح بمشغل فيديو واحد فقط في الشاشة الرئيسية</string>
+
+    <!-- Theme feature -->
+    <string name="theme">"الموضوع"</string>
+</resources>
+

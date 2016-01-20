@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cari</string>
+    <string name="search_widget">Cari</string>
+    <string name="search_widget_config_ok">OK</string>
+    <string name="corpus_selection_heading">Cari</string>
+    <string name="corpus_selection_edit_items">Tambah / Keluarkan</string>
+    <string name="corpus_label_global">Semua</string>
+    <string name="corpus_label_web">Web</string>
+    <string name="corpus_description_web">Carian web, penanda buku dan sejarah pelayar</string>
+    <string name="corpus_label_apps">Apl</string>
+    <string name="corpus_description_apps">Nama aplikasi dipasang</string>
+    <string name="corpus_hint_apps">Cari Apl</string>
+    <string name="corpus_label_apps_market">Apl dan Pasar</string>
+    <string name="corpus_description_apps_market">Apl dan Apl dari Pasar Dipasang</string>
+    <string name="corpus_hint_apps_market">Cari Apl dan Pasar</string>
+    <string name="menu_settings">Tetapan carian</string>
+    <string name="search_settings">Tetapan carian</string>
+    <string name="web_search_category_title">Web</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Item boleh cari</string>
+    <string name="search_sources_summary">Pilih apa ingin dicari di telefon</string>
+    <string name="clear_shortcuts">Buang pintasan</string>
+    <string name="clear_shortcuts_summary">Buang pintasan ke cadangan carian yang dipilih baru-baru ini</string>
+    <string name="clear_shortcuts_prompt">Ini akan membuang semua pintasan ke cadangan carian yang dipilih baru-baru ini.\n\n(Untuk membuang sejarah Pelayar anda, gunakan tetapan Pelayar).</string>
+    <string name="agree">OK</string>
+    <string name="disagree">Batal</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Carian Google</string>
+    <string name="google_search_hint">Carian Google</string>
+    <string name="google_search_description">Cadangan carian Google</string>
+    <string name="google_search_settings">Carian Google</string>
+    <string name="google_show_web_suggestions">Tunjuk cadangan web</string>
+    <string name="google_show_web_suggestions_summary_enabled">Papar cadangan carian dari enjin carian</string>
+    <string name="google_show_web_suggestions_summary_disabled">Jangan papar carian web dari enjin carian</string>
+    <string name="pref_content_search_engine">Pilih enjin carian</string>
+    <string name="pref_content_search_engine_consistency">Cari konsistensi enjin</string>
+    <string name="search_suggestion_settings">Cadangan carian Web</string>
+    <string name="search_engine_settings">Enjin carian</string>
+    <string name="pref_search_engine_unify">Satukan enjin carian</string>
+    <string name="pref_search_engine_unify_summary">Gunakan pertukaran enjin carian pada Browser</string>
+    <string name="voice_search_hint_title">Cuba sebutkan:</string>
+    <string name="voice_search_hint_quotation_start">"“"</string>
+    <string name="voice_search_hint_quotation_end">"”"</string>
+</resources>
+

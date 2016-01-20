@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.mediatek.launcherplus.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.mediatek.launcherplus"
+
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/all_apps" />
+
+    <!-- The workspace contains 8 screens of cells -->
+		<com.mediatek.launcherplus.Workspace
+			android:id="@+id/shortcut_workspace" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:descendantFocusability="blocksDescendants"
+			launcher:defaultScreen="0">
+	
+			<include android:id="@+id/cell1" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell2" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell3" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell4" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell5" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell6" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell7" layout="@layout/shortcut_workspace_screen" />
+			<include android:id="@+id/cell8" layout="@layout/shortcut_workspace_screen" />
+	
+		</com.mediatek.launcherplus.Workspace>		
+		
+    	<com.mediatek.launcherplus.Workspace		
+			android:id="@+id/widget_workspace" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:descendantFocusability="blocksDescendants"
+			launcher:defaultScreen="0">
+	
+			<include android:id="@+id/cell1" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell2" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell3" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell4" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell5" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell6" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell7" layout="@layout/widget_workspace_screen" />
+			<include android:id="@+id/cell8" layout="@layout/widget_workspace_screen" />
+	
+		</com.mediatek.launcherplus.Workspace>
+		
+		<com.mediatek.launcherplus.Workspace
+			xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:launcher="http://schemas.android.com/apk/res/com.mediatek.launcherplus"
+	
+			android:id="@+id/default_workspace" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:descendantFocusability="blocksDescendants"
+			launcher:defaultScreen="0">
+
+			<include android:id="@+id/cell1" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell2" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell3" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell4" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell5" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell6" layout="@layout/default_workspace_screen" />
+			<include android:id="@+id/cell7" layout="@layout/default_workspace_screen" />
+
+		</com.mediatek.launcherplus.Workspace>
+
+	<RelativeLayout
+    	android:id="@+id/top_layer"
+        android:layout_width="match_parent"
+        android:layout_height="72dip"
+        android:layout_gravity="top"
+        android:background="#00000000" >
+    	
+			<ImageView
+        		android:id="@+id/title_bg"
+        		android:layout_width="wrap_content"
+        		android:layout_height="match_parent"
+        		
+        		android:src="@drawable/title_bg"
+        		android:scaleType="center"
+        		android:layout_alignParentBottom="true" />
+        
+    		<TextView
+    			android:id="@+id/page_classification"
+    			android:layout_width="wrap_content"
+    			android:layout_height="match_parent"
+    			android:textSize="20dip"
+    			android:textColor="#FFFFFFFF"
+    			android:shadowColor="#FF000000"
+       	 		android:shadowRadius="1"
+        		android:shadowDx="0.0"
+        		android:shadowDy="1.0"
+    			android:layout_centerHorizontal="true" />
+    		</RelativeLayout> 
+
+    <RelativeLayout
+        android:id="@+id/bottom_layer"
+		android:layout_width="57dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/bottom_background" >
+			
+		<RelativeLayout
+			android:id="@+id/relative_layout_bar"
+			android:layout_width="50dip"
+			android:layout_height="match_parent"
+            android:layout_alignParentRight="true" >
+			
+			<ImageView
+				android:id="@+id/message"
+				android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/message_icon"
+                android:scaleType="center" />
+	        
+			<ImageView
+				android:id="@+id/phone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+                android:src="@drawable/phone_icon"
+                android:scaleType="center" />
+
+			<ImageView
+                android:id="@+id/switch_shortcut_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:clickable="true"
+                launcher:direction="horizontal"
+				android:visibility="invisible" />
+				
+            <com.mediatek.launcherplus.HandleView
+                android:id="@+id/all_apps_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/all_apps_button"
+                android:scaleType="center"
+                launcher:direction="vertical"
+				android:visibility="invisible" />
+
+		</RelativeLayout>    
+		
+        <com.mediatek.launcherplus.DeleteZone
+            android:id="@+id/delete_zone"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete_zone_selector"
+            android:scaleType="center"
+            android:visibility="invisible"
+            launcher:direction="vertical" />
+
+	</RelativeLayout>    
+
+    <com.mediatek.launcherplus.Indicator
+        android:id="@+id/indicator"
+        android:layout_width="7dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dip" 
+        launcher:direction="vertical" />
+
+	<RelativeLayout
+        android:id="@+id/folder_topen"
+        android:layout_width="fill_parent"
+        android:layout_height="240dip"
+        android:visibility="gone"
+        android:layout_gravity="bottom" />
+        
+</com.mediatek.launcherplus.DragLayer>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.mediatek.launcherplus">
+	<scene launcher:scene="Enhance" />
+	<!-- search widget [Screen 0]-->
+    <search
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- hometips widget [Screen 0]-->
+    <appwidget
+        launcher:packageName="com.android.protips"
+        launcher:className="com.android.protips.ProtipWidget"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+
+    <!-- Weather widget [Screen 1]-->
+    <appwidget
+        launcher:packageName="com.mediatek.appwidget.weather"
+        launcher:className="com.mediatek.appwidget.weather.WeatherWidgetProvider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="4" />
+        
+    <!-- [home page == 0]-->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.DialtactsActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+        
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.DialtactsContactsEntryActivity"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0" />
+        
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="0" />        
+        
+     <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="0" />
+        
+     <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1" />
+     
+     <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="1" />
+        
+    <favorite
+        launcher:packageName="com.mediatek.camera"
+        launcher:className="com.mediatek.camera.Camera"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="1" />
+        
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="1" />
+        
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.LaunchActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2" />
+        
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.DialtactsCallLogEntryActivity"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="2" />
+     
+     <!-- [Game page == 1]-->
+     
+     <!-- [Multimedia page == 2]--> 
+     
+     <favorite
+        launcher:packageName="com.mediatek.FMRadio"
+        launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" /> 
+        
+     <favorite
+        launcher:packageName="com.android.music"
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0" />       
+        
+     <favorite
+        launcher:packageName="com.android.soundrecorder"
+        launcher:className="com.android.soundrecorder.SoundRecorder"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+
+     <favorite
+        launcher:packageName="com.mediatek.app.mtv"
+        launcher:className="com.mediatek.app.mtv.ChannelListActivity"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="0" />
+        
+    <favorite
+        launcher:packageName="com.android.gallery"
+        launcher:className="com.android.camera.GalleryPicker"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.cooliris.media"
+        launcher:className="com.cooliris.media.Gallery"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="1" />         
+        
+     <!-- [SNS page == 3]-->         
+
+     <!-- [News page == 4]--> 
+     
+     <!-- [Productivity page == 5]-->                          
+     
+     <!-- [Tools page == 6]--> 
+     <favorite
+        launcher:packageName="com.android.development"
+        launcher:className="com.android.development.Development"
+        launcher:screen="6"
+        launcher:x="0"
+        launcher:y="0" />  
+               
+    <favorite
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:screen="6"
+        launcher:x="1"
+        launcher:y="0" /> 
+    
+     <favorite
+        launcher:packageName="com.android.quicksearchbox"
+        launcher:className="com.android.quicksearchbox.SearchActivity"
+        launcher:screen="6"
+        launcher:x="2"
+        launcher:y="0" />         
+       
+    <favorite
+        launcher:packageName="com.android.spare_parts"
+        launcher:className="com.android.spare_parts.SpareParts"
+        launcher:screen="6"
+        launcher:x="3"
+        launcher:y="0" />
+        
+    <favorite
+        launcher:packageName="com.mediatek.bluetooth"
+        launcher:className="com.mediatek.bluetooth.hid.BluetoothHidActivity"
+        launcher:screen="6"
+        launcher:x="0"
+        launcher:y="1" />
+        
+   <favorite
+        launcher:packageName="com.android.providers.downloads.ui"
+        launcher:className="com.android.providers.downloads.ui.DownloadList"
+        launcher:screen="6"
+        launcher:x="1"
+        launcher:y="1" />
+        
+    <favorite
+        launcher:packageName="com.mediatek.filemanager"
+        launcher:className="com.mediatek.filemanager.FileManagerActivity"
+        launcher:screen="6"
+        launcher:x="2"
+        launcher:y="1" />    
+     
+    <!-- [Customization page == 7]-->  
+             
+     <!-- Phone and Message application in the side region of allapps menu -->
+     <favorite
+        launcher:packageName="intent:#Intent;action=android.intent.action.DIAL;end"
+        launcher:className=""
+        launcher:container="-200" />
+
+   	 <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-300" />
+        
+	<!-- App Manager -->
+	<favorite launcher:packageName="com.mediatek.moreapp"
+		launcher:className="com.mediatek.moreapp.AppManager" 
+		launcher:screen="0"
+		launcher:x="3" 
+		launcher:y="3" />
+		
+      <!-- View More -->
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="1"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="2"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="3"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="4"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="5"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="6"
+      	launcher:x="3"
+      	launcher:y="3" />
+      <favorite
+      	launcher:packageName="com.mediatek.moreapp"
+      	launcher:className="com.mediatek.moreapp.MoreApp"
+      	launcher:screen="7"
+      	launcher:x="3"
+      	launcher:y="3" />
+
+</favorites>
